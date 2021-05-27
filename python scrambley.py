@@ -1,4 +1,4 @@
-import random, re, itertools
+import random, re
 moves, b, times = ["U","F","L","R","B","D"], [''], int(input("How many scrambles would you like: "))
 for i in range(times):
 	for i in range(20):
