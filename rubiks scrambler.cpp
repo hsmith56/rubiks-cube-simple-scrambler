@@ -36,7 +36,7 @@ int main() {
     int scramblecount;
     int tot_scrambles = 0;
     puts("How many scrambles would you like: ");
-    scanf_s("%i", &scramblecount);
+    scanf("%i", &scramblecount);
 
     while (tot_scrambles++ < scramblecount) {
         move_number = 0;
