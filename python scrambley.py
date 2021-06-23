@@ -1,5 +1,4 @@
-import random
-b =  ['']
+b, random =  [''], __import__('random')
 for i in range(int(input("How many scrambles would you like: "))*20):
     while (x:=random.choice(["U","F","L","R","B","D"])) == "".join(x for x in b[len(b)-1] if x.isalpha()): pass
     b.append(x + ("2" if (y:=random.randint(0,2) == 1) else "") + ("'" if y == 0 else ""))
